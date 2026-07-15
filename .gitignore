@@ -28,3 +28,4 @@ env/
 .DS_Store
 Thumbs.db
 extension/
+backend/data/training/*.csv
