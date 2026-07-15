@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PhishGuard</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <img class="brand-mark" src="../icons/phishguard-logo.png" alt="PhishGuard AI logo">
+        <div><h1>PhishGuard</h1><p>Local phishing protection</p></div>
+        <span id="backend-status" class="backend pending">Checking</span>
+      </header>
+
+      <section class="status-card" aria-live="polite">
+        <span class="label">Current website status</span>
+        <strong id="site-status">Ready to scan</strong>
+        <span id="current-site" class="url">No HTTP/HTTPS page selected</span>
+      </section>
+
+      <form id="scan-form">
+        <label for="url-input">Scan URL</label>
+        <div class="input-row">
+          <input id="url-input" type="url" required placeholder="https://example.com" autocomplete="url">
+          <button id="scan-button" type="submit">Scan</button>
+        </div>
+        <p id="form-error" class="error" role="alert"></p>
+      </form>
+
+      <section id="result" class="result hidden" aria-live="polite">
+        <div><span class="label">Risk score</span><strong id="risk-score">—</strong></div>
+        <div><span class="label">Recommendation</span><p id="recommendation">—</p></div>
+        <div class="ai-result">
+          <span class="label">AI model analysis</span>
+          <strong id="ai-prediction">—</strong>
+          <span id="ai-confidence" class="ai-confidence"></span>
+        </div>
+      </section>
+
+      <section class="history">
+        <div class="section-title"><h2>Recent scan history</h2><button id="refresh-history" class="text-button" type="button">Refresh</button></div>
+        <div id="history-list" class="history-list"><p class="empty">Loading history…</p></div>
+      </section>
+    </main>
+    <script src="../api_config.js"></script>
+    <script src="../scan_result.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

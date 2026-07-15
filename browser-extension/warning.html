@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhishGuard Warning</title>
+    <link rel="stylesheet" href="warning.css" />
+  </head>
+  <body>
+    <main class="warning-shell">
+      <div class="warning-card">
+        <img class="warning-logo" src="icons/phishguard-logo.png" alt="PhishGuard AI logo" />
+        <h1>Suspicious Website Blocked</h1>
+        <p id="reason">This site appears dangerous and has been blocked by PhishGuard.</p>
+        <p id="blocked-url" class="muted"></p>
+        <div class="actions">
+          <button id="go-back">Go Back</button>
+          <button id="continue">Continue Anyway</button>
+        </div>
+      </div>
+    </main>
+    <script src="warning.js"></script>
+  </body>
+</html>

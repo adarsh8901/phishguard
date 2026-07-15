@@ -1,0 +1,100 @@
+{
+  "trained_at": "2026-07-11T20:13:11.324985+00:00",
+  "dataset": "UCI PhiUSIIL Phishing URL Dataset (id 967)",
+  "dataset_url": "https://archive.ics.uci.edu/static/public/967/phiusiil+phishing+url+dataset.zip",
+  "license": "CC BY 4.0",
+  "label_mapping": {
+    "0": "safe",
+    "1": "phishing"
+  },
+  "model_type": "character TF-IDF (3-5 grams) + logistic regression",
+  "random_seed": 42,
+  "split": "80/20 GroupShuffleSplit by hostname",
+  "training_rows": 188212,
+  "test_rows": 47583,
+  "skipped_rows": 0,
+  "sanity_results": {
+    "https://example.com": {
+      "expected": 0,
+      "predicted": 1,
+      "phishing_probability": 0.739614
+    },
+    "https://www.google.com": {
+      "expected": 0,
+      "predicted": 0,
+      "phishing_probability": 0.000235
+    },
+    "https://github.com": {
+      "expected": 0,
+      "predicted": 1,
+      "phishing_probability": 0.773662
+    },
+    "http://192.0.2.1/secure-login/verify-account.php?session=12345": {
+      "expected": 1,
+      "predicted": 1,
+      "phishing_probability": 0.99998
+    },
+    "http://paypal.com.verify-account.example.xyz/login": {
+      "expected": 1,
+      "predicted": 1,
+      "phishing_probability": 0.999983
+    }
+  },
+  "sanity_failures": {
+    "https://example.com": {
+      "expected": 0,
+      "predicted": 1,
+      "phishing_probability": 0.739614
+    },
+    "https://github.com": {
+      "expected": 0,
+      "predicted": 1,
+      "phishing_probability": 0.773662
+    }
+  },
+  "prototype": true,
+  "metrics": {
+    "accuracy": 0.9953765000105079,
+    "precision_phishing": 1.0,
+    "recall_phishing": 0.9893001313165702,
+    "f1_phishing": 0.9946212899124737,
+    "roc_auc": 0.9982212721914995,
+    "confusion_matrix": [
+      [
+        27022,
+        0
+      ],
+      [
+        220,
+        20341
+      ]
+    ],
+    "classification_report": {
+      "safe": {
+        "precision": 0.9919242346376917,
+        "recall": 1.0,
+        "f1-score": 0.9959457467197406,
+        "support": 27022.0
+      },
+      "phishing": {
+        "precision": 1.0,
+        "recall": 0.9893001313165702,
+        "f1-score": 0.9946212899124737,
+        "support": 20561.0
+      },
+      "accuracy": 0.9953765000105079,
+      "macro avg": {
+        "precision": 0.9959621173188459,
+        "recall": 0.9946500656582851,
+        "f1-score": 0.9952835183161071,
+        "support": 47583.0
+      },
+      "weighted avg": {
+        "precision": 0.9954138383115757,
+        "recall": 0.9953765000105079,
+        "f1-score": 0.9953734381974907,
+        "support": 47583.0
+      }
+    }
+  }
+}

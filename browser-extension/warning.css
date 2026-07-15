@@ -1,0 +1,15 @@
+:root { color-scheme: dark; font-family: Inter, ui-sans-serif, system-ui, sans-serif; background: #070d17; color: #edf4fb; }
+* { box-sizing: border-box; }
+html, body { width: 100%; min-height: 100%; margin: 0; }
+.warning-shell { display: grid; min-height: 100vh; place-items: center; padding: 24px; background: radial-gradient(circle at 50% 10%, #341b28, #070d17 55%); }
+.warning-card { width: min(620px, 100%); padding: 36px; border: 1px solid #713545; border-radius: 16px; background: #101a28; box-shadow: 0 24px 70px rgba(0, 0, 0, .45); }
+.warning-logo { display: block; width: 88px; height: 88px; margin: 0 auto 24px; border: 1px solid #294b65; border-radius: 20px; object-fit: cover; box-shadow: 0 0 30px rgba(16, 213, 224, .14); }
+.warning-card::before { content: "!"; display: grid; width: 48px; height: 48px; margin-bottom: 20px; place-items: center; border: 1px solid #ff697f; border-radius: 50%; color: #ff8596; font-size: 25px; font-weight: 800; }
+h1 { margin: 0 0 12px; font-size: clamp(25px, 5vw, 34px); }
+p { margin: 8px 0; color: #bcc9d8; line-height: 1.6; }
+#blocked-url { overflow-wrap: anywhere; color: #8295aa; font-size: 13px; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+button { border: 0; border-radius: 9px; padding: 12px 18px; font: inherit; font-weight: 750; cursor: pointer; }
+#go-back { color: #071714; background: #51d8c4; }
+#continue { border: 1px solid #40536a; color: #d0dbe7; background: transparent; }
+button:focus-visible { outline: 3px solid rgba(81, 216, 196, .4); outline-offset: 2px; }

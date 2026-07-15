@@ -1,0 +1,301 @@
+{
+  "scans": [
+    {
+      "url": "https://www.hotstar.com/in/shows/resort/1271512845/spurned-invitation/1271645288/watch",
+      "confidence": 55,
+      "risk_score": 15,
+      "status": "SAFE",
+      "recommendation": "Verify the domain before sharing sensitive data.",
+      "reasons": [
+        "Path depth",
+        "Many path segments"
+      ],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:50:45.898019+00:00"
+    },
+    {
+      "url": "https://www.hotstar.com/in/home",
+      "confidence": 65,
+      "risk_score": 0,
+      "status": "SAFE",
+      "recommendation": "Verify the domain before sharing sensitive data.",
+      "reasons": [],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:49:51.419434+00:00"
+    },
+    {
+      "url": "https://www.hotstar.com/in/onboarding/profile?ref=%2Fin%2Fhome",
+      "confidence": 65,
+      "risk_score": 0,
+      "status": "SAFE",
+      "recommendation": "Verify the domain before sharing sensitive data.",
+      "reasons": [],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:47:39.246543+00:00"
+    },
+    {
+      "url": "https://mail.google.com/mail/u/0/?tab=rm&ogbl",
+      "confidence": 60,
+      "risk_score": 0,
+      "status": "SAFE",
+      "recommendation": "No action needed.",
+      "reasons": [],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:31:35.244868+00:00"
+    },
+    {
+      "url": "https://trailhead.salesforce.com/content/learn/modules/trailhead_basics/get-started-with-trailhead",
+      "confidence": 49,
+      "risk_score": 25,
+      "status": "SAFE",
+      "recommendation": "Verify the domain before sharing sensitive data.",
+      "reasons": [
+        "Short lived cert",
+        "Path depth",
+        "Many path segments"
+      ],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:31:13.351630+00:00"
+    },
+    {
+      "url": "https://chromewebstore.google.com/category/extensions?pli=1",
+      "confidence": 60,
+      "risk_score": 0,
+      "status": "SAFE",
+      "recommendation": "No action needed.",
+      "reasons": [],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:30:58.837494+00:00"
+    },
+    {
+      "url": "https://www.hotstar.com/in/onboarding/profile?ref=%2Fin%2Fhome",
+      "confidence": 65,
+      "risk_score": 0,
+      "status": "SAFE",
+      "recommendation": "Verify the domain before sharing sensitive data.",
+      "reasons": [],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:30:46.766173+00:00"
+    },
+    {
+      "url": "https://www.hotstar.com/in/onboarding/profile?ref=%2Fin%2Fhome",
+      "confidence": 65,
+      "risk_score": 0,
+      "status": "SAFE",
+      "recommendation": "Verify the domain before sharing sensitive data.",
+      "reasons": [],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:25:12.675639+00:00"
+    },
+    {
+      "url": "https://account.hackthebox.com/login",
+      "confidence": 38,
+      "risk_score": 100,
+      "status": "DANGEROUS",
+      "recommendation": "Verify the domain before sharing sensitive data.",
+      "reasons": [
+        "Root login",
+        "Suspicious domain keywords",
+        "Suspicious path"
+      ],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:24:52.540408+00:00"
+    },
+    {
+      "url": "https://lobstrballet.gitbook.io/",
+      "confidence": 65,
+      "risk_score": 0,
+      "status": "SAFE",
+      "recommendation": "Verify the domain before sharing sensitive data.",
+      "reasons": [],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:24:31.658470+00:00"
+    },
+    {
+      "url": "https://www.phishtank.net/",
+      "confidence": 65,
+      "risk_score": 0,
+      "status": "SAFE",
+      "recommendation": "Verify the domain before sharing sensitive data.",
+      "reasons": [],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:24:20.859062+00:00"
+    },
+    {
+      "url": "https://www.google.com/search?q=phishtank&sca_esv=cce85b718b5e37da&rlz=1C1CHBF_enIN1042IN1042&sxsrf=APpeQnsGFTqCUBLSfsopIlJtfmtgBaCPMQ%3A1783949046132&ei=9uZUarS1B8jx4-EP3ruwoQU&oq=phis&gs_lp=Egxnd3Mtd2l6LXNlcnAiBHBoaXMqAggAMgQQIxgnMgQQIxgnMhEQLhiABBiKBRiRAhjHARjRAzILEAAYgAQYigUYkQIyDhAAGIAEGIoFGJECGLEDMg4QABiABBiKBRiRAhixAzIQEC4YgAQYigUYQxixAxiDATIIEAAYgAQYsQMyCBAAGIAEGLEDMgUQABiABDIgEC4YgAQYigUYkQIYxwEY0QMYlwUY3AQY3gQY4ATYAQFI9RhQtAdYlA9wA3gAkAEBmAGSAqAB6QmqAQMyLTW4AQPIAQD4AQGYAgegAqAIwgIKEAAYRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAPCAg4QABjkAhjWBBiwA9gBAcICFxAuGNwGGLgGGNoGGNgCGMgDGLAD2AEBwgIXEC4Y2AIYuAYY2gYY3AYYyAMYsAPYAQHCAgsQABiABBixAxiDAcICERAAGIAEGIoFGI0GGLEDGIMBwgIKEC4YgAQYigUYQ8ICChAAGIAEGIoFGEPCAg0QLhiABBiKBRhDGOUEwgIKEC4YQxiABBiKBcICDRAuGIAEGIoFGEMYsQOYAwCIBgGQBhO6BgYIARABGAmSBwUzLjAuNKAHs2eyBwMyLTS4B_sHwgcFMi01LjLIBzGACAE&sclient=gws-wiz-serp",
+      "confidence": 60,
+      "risk_score": 0,
+      "status": "SAFE",
+      "recommendation": "No action needed.",
+      "reasons": [],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:24:18.296593+00:00"
+    },
+    {
+      "url": "https://www.google.com/search?q=fishtank+live&rlz=1C1CHBF_enIN1042IN1042&oq=fishtank&gs_lcrp=EgZjaHJvbWUqDwgAEAAYQxjjAhiABBiKBTIPCAAQABhDGOMCGIAEGIoFMgwIARAuGEMYgAQYigUyBggCEEUYOTIHCAMQABiABDIJCAQQABgKGIAEMgcIBRAAGIAEMgkIBhAAGAoYgAQyBwgHEAAYgAQyBwgIEAAYgAQyCQgJEAAYChiABNIBCDQ1MzZqMGo3qAIAsAIA&sourceid=chrome&source=chrome.ob&ie=UTF-8",
+      "confidence": 60,
+      "risk_score": 0,
+      "status": "SAFE",
+      "recommendation": "No action needed.",
+      "reasons": [],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:24:13.301009+00:00"
+    },
+    {
+      "url": "https://www.fishtank.live/",
+      "confidence": 65,
+      "risk_score": 0,
+      "status": "SAFE",
+      "recommendation": "Verify the domain before sharing sensitive data.",
+      "reasons": [],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:24:12.021319+00:00"
+    },
+    {
+      "url": "https://web.whatsapp.com/",
+      "confidence": 58,
+      "risk_score": 10,
+      "status": "SAFE",
+      "recommendation": "Verify the domain before sharing sensitive data.",
+      "reasons": [
+        "Short lived cert"
+      ],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:23:55.932028+00:00"
+    },
+    {
+      "url": "https://www.hotstar.com/in/onboarding/profile?ref=%2Fin%2Fhome",
+      "confidence": 65,
+      "risk_score": 0,
+      "status": "SAFE",
+      "recommendation": "Verify the domain before sharing sensitive data.",
+      "reasons": [],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:23:43.883977+00:00"
+    },
+    {
+      "url": "https://account.hackthebox.com/login",
+      "confidence": 38,
+      "risk_score": 100,
+      "status": "DANGEROUS",
+      "recommendation": "Verify the domain before sharing sensitive data.",
+      "reasons": [
+        "Root login",
+        "Suspicious domain keywords",
+        "Suspicious path"
+      ],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:23:19.856151+00:00"
+    },
+    {
+      "url": "https://chatgpt.com/g/g-p-6a51168b0b64819196eb89f5fca6c3a6-adarash/c/6a54d84e-6b28-83ee-bf89-c55493ef6ddf",
+      "confidence": 100,
+      "risk_score": 0,
+      "status": "SAFE",
+      "recommendation": "No action needed.",
+      "reasons": [],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:23:11.034351+00:00"
+    },
+    {
+      "url": "https://chatgpt.com/",
+      "confidence": 100,
+      "risk_score": 0,
+      "status": "SAFE",
+      "recommendation": "No action needed.",
+      "reasons": [],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:21:41.557846+00:00"
+    },
+    {
+      "url": "https://www.codechef.com/",
+      "confidence": 65,
+      "risk_score": 0,
+      "status": "SAFE",
+      "recommendation": "Verify the domain before sharing sensitive data.",
+      "reasons": [],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:21:40.199037+00:00"
+    },
+    {
+      "url": "https://www.hotstar.com/in/shows/example/1234567890/watch?redirect=https%3A%2F%2Fexample.com%2Fa%2Fb&signature=AbC%2F123#episode",
+      "confidence": 49,
+      "risk_score": 25,
+      "status": "SAFE",
+      "recommendation": "Verify the domain before sharing sensitive data.",
+      "reasons": [
+        "Url query complexity",
+        "Path depth",
+        "Many path segments"
+      ],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:21:38.833412+00:00"
+    },
+    {
+      "url": "https://www.hotstar.com/",
+      "confidence": 65,
+      "risk_score": 0,
+      "status": "SAFE",
+      "recommendation": "Verify the domain before sharing sensitive data.",
+      "reasons": [],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T13:21:37.271501+00:00"
+    },
+    {
+      "url": "https://example.test/path#second",
+      "confidence": 99,
+      "risk_score": 0,
+      "status": "SAFE",
+      "recommendation": "ok",
+      "reasons": [],
+      "source": "backend",
+      "success": true,
+      "error": null,
+      "scanned_at": "2026-07-13T10:00:10+00:00"
+    }
+  ]
+}
